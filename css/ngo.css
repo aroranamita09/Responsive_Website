@@ -22,7 +22,7 @@ ul{
 .navbar a{
     float:left;
     display:block;
-    color:blue;
+    color:rgb(255, 0, 157);
     text-align:center;
     padding:14px 16px;
     list-style:none;
@@ -114,9 +114,14 @@ footer{
              }
              p form
              {
-                 
+
              }
-           
+             @media only screen and(max-width:600px)
+             {
+             body{
+                 background-color:pink;
+                  }
+             }
             
             
             
